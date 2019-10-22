@@ -1,0 +1,30 @@
+.example-card{
+    float: right;
+    background: #686472;
+    width: 122px;
+    margin: 1%;
+    max-width: 200px;
+    padding: 5%;
+    height:300px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  .content{
+    float: right;
+    background: yellow;
+    width: 70%;
+    margin: 1%;
+    padding: 5%;
+  }
+  
+  input{
+    margin: 10px;
+    width: 64%;
+    height: 30px;
+    border-radius: 3%;
+  }
+

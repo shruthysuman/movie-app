@@ -1,0 +1,26 @@
+.back{
+    background: #686472;
+    margin-top: 1%;
+
+    width: 17%;
+    color:white;
+    float: left;
+}
+
+li{
+    list-style-type:none;
+    margin:10%;
+    color:white;
+}
+
+a{
+    text-decoration: none;
+    color:white; 
+}
+
+li:hover a{
+    background: #333235;
+    box-sizing: border-box;
+    position: relative;
+    padding:5px;
+}

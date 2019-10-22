@@ -1,0 +1,23 @@
+<div class="container-fluid">
+  <div class="profile" *ngIf="person">
+    
+      <mat-card class="ActorPoster">
+        <img src="https://image.tmdb.org/t/p/w500/{{person.profile_path}}" />
+        <h3>{{person.name}}</h3>
+        <p>{{person.birthday}}</p>
+        <p>{{person.place_of_birth}}</p>
+      </mat-card>
+   
+
+    <div class="MoviesList">
+      <h2 style="margin-left:44px;">Movies</h2>
+        <mat-card class="movie_card" *ngFor="let movie of Actormovie">
+          <img src="https://image.tmdb.org/t/p/w500/{{movie.poster_path}}">
+          <mat-card-content>
+            <p>{{movie.title}}</p>
+            <a [routerLink]="['/movieContent/',movie.id]">View details</a>
+          </mat-card-content>
+        </mat-card> 
+    </div>
+  </div>
+</div>

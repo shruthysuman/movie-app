@@ -1,0 +1,15 @@
+  <div *ngFor="let user of genreResult">
+      <h2>{{genreResult.name}}</h2>
+  <mat-card class="example-card">
+    <img mat-card-image src="https://image.tmdb.org/t/p/w500/{{user.backdrop_path}}">
+    <mat-card-content>
+      <h2>{{user.original_title}}</h2>
+      <p>id: {{user.id}}</p>
+    </mat-card-content>
+
+    <mat-card-actions>
+      <a [routerLink]="['/movieContent/',user.id]">View details</a>
+    </mat-card-actions>
+
+  </mat-card>
+  </div>

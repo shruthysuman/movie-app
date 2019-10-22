@@ -1,0 +1,80 @@
+/* .example-card{
+    float: left;
+    background: #686472;
+    width: 122px;
+    margin: 1%;
+    max-width: 200px;
+    padding: 5%;
+    height:300px;
+  }
+   */
+
+  .MoviePoster{
+    width: 113%;
+  }
+
+.cast{
+    /* background: cornflowerblue; */
+    float: right;
+    width: 100%;
+  }
+
+  img, .cast_card{
+    width: 96%;
+    height: 90%;
+  }
+
+  a, .cast_card{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+  }
+
+  .cast_card{
+    float: left;
+    width: 17%;
+    padding: 15px;
+    height: 265px;
+    margin: 2%
+  }
+
+  .cast_card img{ 
+    width: 100%;
+  }
+
+  .video{
+    background: blueviolet;
+    margin:9% 2%;
+  }
+
+  .sect{
+    margin:7%;
+    width:108%;
+  }
+
+  .similarMovies{
+    padding: 0%;
+    margin: 10%;
+  }
+
+  .movieReviews{
+    padding: 0%;
+    margin: 4%;
+    /* background: yellow; */
+    display: inline-block;
+  }
+
+  .similar_card{
+    width: 13%;
+    height: 300px;
+    margin: 1% 2%;
+    padding: 1%;
+    float: left;
+  }
+
+  .reviews_card{
+    width: 25%;
+    margin: 2%;
+    float: left;
+  }
+

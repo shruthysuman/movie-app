@@ -1,0 +1,27 @@
+<!-- Search bar -->
+<div class="container-fluid">
+  <div class="content">
+    <div class="heading">
+      Search for a movie using the form below
+    </div>
+    <div class="searchbar">
+      <input type="text" #movieSearchInput class="form-control"
+        placeholder="Type any movie name" (keyup)="searchMovie($event)" />
+    </div>
+  </div>
+</div>
+
+
+<!-- Display cards and movies details -->
+<mat-card class="example-card" *ngFor="let user of users">
+  <img mat-card-image src="https://image.tmdb.org/t/p/w500/{{user.poster_path}}">
+  <mat-card-content>
+    <h2>{{user.title}}</h2>
+    <p>Release Date: {{user.release_date}}</p>
+  </mat-card-content>
+
+  <mat-card-actions>
+    <a [routerLink]="['/movieContent/',user.id]">View details</a>
+  </mat-card-actions>
+
+</mat-card>

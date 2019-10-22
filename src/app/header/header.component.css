@@ -1,0 +1,16 @@
+.outline{
+    width:100%;
+    background: #bf5a16;
+    color: white;
+}
+
+.row{
+    padding:1%;
+    font-size: 80%;
+    width: 100%;
+}
+
+span.a{
+    font-size: 60%;
+    margin:2%;
+}
