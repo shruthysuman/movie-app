@@ -26,7 +26,7 @@ export class ActorComponent implements OnInit {
 
       this._MovieService.getActorMovies({id:this.id}).subscribe((res:any) => {
         this.Actormovie = res.cast;
-        console.log(this.Actormovie);
+        //console.log(this.Actormovie);
       });
     });
   }

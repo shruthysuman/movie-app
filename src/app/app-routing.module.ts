@@ -8,6 +8,7 @@ import { GenresComponent } from './genres/genres.component';
 import { MovieContentComponent } from './movie-content/movie-content.component';
 import { ActorComponent } from './actor/actor.component';
 import { SimilarMoviesComponent } from './similar-movies/similar-movies.component';
+import { TvContentComponent } from './tv-content/tv-content.component';
 
 const routes: Routes = [
   {path: '', component: DashboardComponent},
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path:'genres', component: GenresComponent},
   {path:'movieContent/:id', component: MovieContentComponent},
   {path:'actor/:id', component: ActorComponent},
-  {path:'similarMovies/:id', component: SimilarMoviesComponent}
+  {path:'similarMovies/:id', component: SimilarMoviesComponent},
+  {path:'tvContent/:id', component: TvContentComponent}
 ];
 
 @NgModule({

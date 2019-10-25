@@ -18,6 +18,7 @@ import { GenresComponent } from './genres/genres.component';
 import { MovieContentComponent } from './movie-content/movie-content.component';
 import { ActorComponent } from './actor/actor.component';
 import { SimilarMoviesComponent } from './similar-movies/similar-movies.component';
+import { TvContentComponent } from './tv-content/tv-content.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { SimilarMoviesComponent } from './similar-movies/similar-movies.componen
     GenresComponent,
     MovieContentComponent,
     ActorComponent,
-    SimilarMoviesComponent,  
+    SimilarMoviesComponent,
+    TvContentComponent,  
   ],
   imports: [
     BrowserModule,
